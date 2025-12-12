@@ -182,7 +182,7 @@ This adapter loads the weather warnings from the German weather service via JSON
 
 The MIT License (MIT)
 
-Copyright (c) 2016-2023 bluefox <dogafox@gmail.com>, hobbyquaker
+Copyright (c) 2016-2025 bluefox <dogafox@gmail.com>, hobbyquaker
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
