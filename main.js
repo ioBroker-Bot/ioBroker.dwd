@@ -315,6 +315,7 @@ async function processFile(err, data) {
             await placeWarning(channels[c], warnings[c]);
         }
     }
+    await adapter.setStateAsync('info.lastUpdate', Date.now(), true);
     isStopped = true;
     killSwitchTimeout && clearTimeout(killSwitchTimeout);
     adapter && adapter.terminate ? adapter.terminate() : process.exit(0);

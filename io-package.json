@@ -133,12 +133,14 @@
     "authors": [
       "bluefox <dogafox@gmail.com>"
     ],
-    "license": "MIT",
+     "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
     "compact": true,
     "readme": "https://github.com/ioBroker/ioBroker.dwd/blob/master/README.md",
     "icon": "dwd.png",
     "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.dwd/master/admin/dwd.png",
-    "localLink": "http://www.dwd.de/",
     "allowInit": true,
     "type": "weather",
     "connectionType": "cloud",
@@ -152,9 +154,14 @@
         "dsn": "https://4ddc70db4b554069a5595f0382c27e3f@sentry.iobroker.net/50"
       }
     },
+    "globalDependencies": [
+      {
+        "admin": ">=7.6.17"
+      }
+    ],
     "dependencies": [
       {
-        "js-controller": ">=2.0.0"
+         "js-controller": ">=6.0.11"
       }
     ]
   },
@@ -349,6 +356,27 @@
         "role": "weather.chart.url",
         "read": true,
         "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.lastUpdate",
+      "type": "state",
+      "common": {
+        "role": "value.time",
+        "name": "Last update time",
+        "type": "number",
+        "read": true,
+        "write": false,
+        "def": 0
       },
       "native": {}
     }
