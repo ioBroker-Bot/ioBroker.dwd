@@ -28,6 +28,7 @@ This adapter loads the weather warnings from the German weather service via JSON
 * (arteck) add info.lastUpdate
 * (arteck) add eslint
 * (arteck) Dependencies have been updated
+* (arteck) fix hint dp in widget
 
 ### 2.8.5 (2023-06-15)
 * (Quarkmax) added the hint for warning instructions
