@@ -191,7 +191,7 @@ function startAdapter(options) {
 }
 
 async function deleteObjects(objs) {
-    if (!objs && !objs.length) {
+    if (!objs || !objs.length) {
         return;
     }
     for (let id of objs) {

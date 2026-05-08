@@ -23,6 +23,9 @@ This adapter loads the weather warnings from the German weather service via JSON
 -->
 
 ## Changelog
+### **WORK IN PROGRESS**
+* (arteck) fix invalid JSON
+
 ### 2.8.5 (2023-06-15)
 * (Quarkmax) added the hint for warning instructions
 
