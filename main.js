@@ -191,7 +191,7 @@ function startAdapter(options) {
 }
 
 async function deleteObjects(objs) {
-    if (!objs && !objs.length) {
+    if (!objs || !objs.length) {
         return;
     }
     for (let id of objs) {
@@ -315,6 +315,7 @@ async function processFile(err, data) {
             await placeWarning(channels[c], warnings[c]);
         }
     }
+    await adapter.setStateAsync('info.lastUpdate', Date.now(), true);
     isStopped = true;
     killSwitchTimeout && clearTimeout(killSwitchTimeout);
     adapter && adapter.terminate ? adapter.terminate() : process.exit(0);
