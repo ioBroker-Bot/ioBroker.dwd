@@ -185,6 +185,8 @@ This adapter loads the weather warnings from the German weather service via JSON
 ### 0.0.3 (2014-10-22)
 * (bluefox) fix error if ftp problem
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 
 The MIT License (MIT)
