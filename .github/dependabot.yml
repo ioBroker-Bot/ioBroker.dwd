@@ -4,21 +4,23 @@
 # Reference: https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference
 version: 2
 updates:
-
-  - package-ecosystem: 'github-actions'
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: github-actions
     directory: '/'
     schedule:
-      interval: 'monthly'
+      interval: monthly
       time: '04:00'
-      timezone: 'Europe/Berlin'
-
-  - package-ecosystem: 'npm'
+      timezone: Europe/Berlin
+  - package-ecosystem: npm
     directory: '/'
     schedule:
-      interval: 'monthly'
+      interval: monthly
       time: '04:00'
-      timezone: 'Europe/Berlin'
+      timezone: Europe/Berlin
     open-pull-requests-limit: 20
-    versioning-strategy: 'increase'
-    cooldown:
-      default-days: 7
+    versioning-strategy: increase
+    ignore:
+      - dependency-name: '@types/node'
+        update-types:
+          - 'version-update:semver-major'
+
