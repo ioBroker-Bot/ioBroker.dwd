@@ -25,8 +25,21 @@
       "pl": "Ostrzeżenia pogodowe od niemieckiego serwisu pogodowego (DWD)",
       "zh-cn": "德国气象局 (DWD) 的天气警告"
     },
-    "version": "2.8.5",
+    "version": "2.8.6",
     "news": {
+      "2.8.6": {
+        "en": "fix invalid JSON\nadd info.lastUpdate\nadd eslint\nDependencies have been updated\nfix hint dp in widget",
+        "de": "invalid JSON\ninfo hinzufügen.lastUpdate\neslint hinzufügen\nAbhängigkeiten wurden aktualisiert\nfix hint dp in widget",
+        "ru": "исправить недействительный JSON\nдобавить info.lastUpdate\nдобавить eslint\nЗависимости были обновлены\nобновление hint dp в widget",
+        "pt": "corrigir JSON inválido\nadicionar info.lastUpdate\nadicionar eslint\nAs dependências foram atualizadas\ncorrigir a dica dp no elemento",
+        "nl": "ongeldige JSON repareren\ninfo.lastUpdate toevoegen\neslint toevoegen\nAfhankelijkheden zijn bijgewerkt\nfix hint dp in widget",
+        "fr": "corriger JSON invalide\najouter info.lastUpdate\najouter l'essence\nLes dépendances ont été actualisées\ncorrection de l'indice dp dans le widget",
+        "it": "correzione invalida JSON\naggiungere info.lastUpdate\naggiungere eslint\nLe dipendenze sono state aggiornate\nfix suggerimento dp in widget",
+        "es": "jSON inválido\nañadir info.lastUpdate\nañadir eslint\nSe han actualizado las dependencias\nfijar la pista dp en widget",
+        "pl": "naprawić nieprawidłowy JSON\ndodaj info.lastUpdate\ndodaj eslint\nZaktualizowano zależności\nfix podpowiedź dp w widget",
+        "uk": "виправити недійсний JSON\nдодати інформацію.lastUpdate\nдодати еслінт\nЗалежність було оновлено\nзафіксувати підказки dp в віджеті",
+        "zh-cn": "修复无效的 JSON\n添加信息. last 更新日期\n添加埃斯林特语name\n依赖关系已更新\n在部件中修补提示 dp"
+      },
       "2.8.5": {
         "en": "added the hint for warning instructions",
         "de": "den hinweis auf warnhinweise hinzugefügt",
@@ -99,18 +112,6 @@
         "es": "Actualizar la lista de regiones a la oficial por completo",
         "pl": "Zaktualizuj całkowicie listę regionów do oficjalnej",
         "zh-cn": "将区域列表完全更新为官方列表"
-      },
-      "2.7.4": {
-        "en": "Fix region list entry",
-        "de": "Regionslisteneintrag korrigieren",
-        "ru": "Исправить запись в списке регионов",
-        "pt": "Corrigir entrada da lista de regiões",
-        "nl": "Item in regiolijst repareren",
-        "fr": "Corriger l'entrée de la liste de régions",
-        "it": "Correggi la voce dell'elenco delle regioni",
-        "es": "Corregir la entrada de la lista de regiones",
-        "pl": "Napraw wpis na liście regionów",
-        "zh-cn": "修复区域列表条目"
       }
     },
     "mode": "schedule",
@@ -132,7 +133,7 @@
     "authors": [
       "bluefox <dogafox@gmail.com>"
     ],
-     "licenseInformation": {
+    "licenseInformation": {
       "license": "MIT",
       "type": "free"
     },
@@ -160,7 +161,7 @@
     ],
     "dependencies": [
       {
-         "js-controller": ">=6.0.11"
+        "js-controller": ">=6.0.11"
       }
     ]
   },
