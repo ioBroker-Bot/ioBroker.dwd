@@ -8,8 +8,11 @@
 			"style": {
 				"fontSize": 20
 			},
-			"xs": 10,
-			"sm": 10
+			"xs": 12,
+			"sm": 12,
+			"md": 12,
+			"lg": 12,
+			"xl": 12
 		},
         "region": {
             "type": "autocomplete",
@@ -429,8 +432,10 @@
             ],
             "noTranslation": true,
             "xs": 12,
-            "sm": 12,
-            "md": 4
+  					"sm": 12,
+  					"md": 12,
+  					"lg": 12,
+  					"xl": 12
         },
         "land": {
             "newLine": true,
@@ -452,8 +457,10 @@
                 {"value": "thu", "label": "Thüringen", "noTranslation":  true}
             ],
             "xs": 12,
-            "sm": 12,
-            "md": 4
+  					"sm": 12,
+  					"md": 12,
+  					"lg": 12,
+  					"xl": 12
         },
         "warnings": {
             "newLine": true,
@@ -473,16 +480,20 @@
                 {"value": "10", "label": "10"}
             ],
             "xs": 12,
-            "sm": 12,
-            "md": 4
+  					"sm": 12,
+  					"md": 12,
+  					"lg": 12,
+  					"xl": 12
         },
         "rainRadar": {
             "newLine": true,
             "type": "checkbox",
             "label": "Create states for rainradar",
             "xs": 12,
-            "sm": 12,
-            "md": 4
+  					"sm": 12,
+  					"md": 12,
+  					"lg": 12,
+  					"xl": 12
         }
     }
 }
