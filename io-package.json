@@ -11,7 +11,8 @@
       "it": "DWD",
       "es": "DWD",
       "pl": "DWD",
-      "zh-cn": "DWD"
+      "zh-cn": "DWD",
+      "uk": "DWD"
     },
     "desc": {
       "en": "Weather Warnings from German Weather Service (DWD)",
@@ -23,7 +24,8 @@
       "it": "Avvertenze meteorologiche dal servizio meteo tedesco (DWD)",
       "es": "Advertencias meteorológicas del Servicio meteorológico alemán (DWD)",
       "pl": "Ostrzeżenia pogodowe od niemieckiego serwisu pogodowego (DWD)",
-      "zh-cn": "德国气象局 (DWD) 的天气警告"
+      "zh-cn": "德国气象局 (DWD) 的天气警告",
+      "uk": "Попередження про погоду від Німецької служби погоди (DWD)"
     },
     "version": "2.8.5",
     "news": {
@@ -50,7 +52,8 @@
         "it": "Non aggiungere warning0 non utilizzato",
         "es": "No agregue advertencia no utilizada 0",
         "pl": "Nie dodawaj niewykorzystanego ostrzeżenia0",
-        "zh-cn": "不要添加未使用的警告0"
+        "zh-cn": "不要添加未使用的警告0",
+        "uk": "Не додавайте невикористане попередження0"
       },
       "2.8.2": {
         "en": "Add instruction text to warning data\nCheck missing objects and add them",
@@ -62,7 +65,8 @@
         "it": "Aggiungi il testo dell'istruzione ai dati di avviso\nControlla gli oggetti mancanti e aggiungili",
         "es": "Agregar texto de instrucción a los datos de advertencia\nCompruebe los objetos que faltan y agréguelos",
         "pl": "Dodaj tekst instrukcji do danych ostrzegawczych\nSprawdź brakujące obiekty i dodaj je",
-        "zh-cn": "将说明文本添加到警告数据\n检查丢失的对象并添加它们"
+        "zh-cn": "将说明文本添加到警告数据\n检查丢失的对象并添加它们",
+        "uk": "Додайте текст інструкції до даних попередження\nПеревірте відсутні предмети та додайте їх"
       },
       "2.7.7": {
         "en": "Fix start/end dates",
@@ -74,7 +78,8 @@
         "it": "Fissa le date di inizio/fine",
         "es": "Corregir fechas de inicio / finalización",
         "pl": "Popraw daty rozpoczęcia/zakończenia",
-        "zh-cn": "修复开始/结束日期"
+        "zh-cn": "修复开始/结束日期",
+        "uk": "Виправте дати початку/закінчення"
       },
       "2.7.6": {
         "en": "Added new states to `warning.severity`\nRemoved warnings\nReplaces `request` packet with `axios`\nBreaking change: Rename state `numberofwarnings` to `numberOfWarnings`",
@@ -86,7 +91,8 @@
         "it": "Aggiunti nuovi stati a `warning.severity`\nAvvisi rimossi\nSostituisce il pacchetto `request` con `axios`\nModifica importante: rinominare lo stato `numberofwarnings` in `numberOfWarnings`",
         "es": "Se agregaron nuevos estados a `warning.severity`\nAdvertencias eliminadas\nReemplaza el paquete `request` con` axios`\nCambio rotundo: cambie el nombre del estado `numberofwarnings` a` numberOfWarnings`",
         "pl": "Dodano nowe stany do `warning.severity`\nUsunięto ostrzeżenia\nZamienia pakiet `request` na `axios`\nWażna zmiana: Zmień nazwę stanu `numberofwarnings` na `numberOfWarnings`",
-        "zh-cn": "向 `warning.severity` 添加了新状态\n删除警告\n用 `axios` 替换 `request` 数据包\n重大变化：将状态“numberofwarnings”重命名为“numberOfWarnings”"
+        "zh-cn": "向 `warning.severity` 添加了新状态\n删除警告\n用 `axios` 替换 `request` 数据包\n重大变化：将状态“numberofwarnings”重命名为“numberOfWarnings”",
+        "uk": "Додано нові стани до `warning.severity`\nВидалені попередження\nЗамінює пакет `request` на `axios`\nКлючова зміна: перейменувати стан `numberofwarnings` на `numberOfWarnings`"
       },
       "2.7.5": {
         "en": "Update region list to the official one completely",
@@ -98,7 +104,8 @@
         "it": "Aggiorna completamente l'elenco delle regioni a quello ufficiale",
         "es": "Actualizar la lista de regiones a la oficial por completo",
         "pl": "Zaktualizuj całkowicie listę regionów do oficjalnej",
-        "zh-cn": "将区域列表完全更新为官方列表"
+        "zh-cn": "将区域列表完全更新为官方列表",
+        "uk": "Повністю оновити список регіонів до офіційного"
       }
     },
     "mode": "schedule",
