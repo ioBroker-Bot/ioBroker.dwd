@@ -122,8 +122,7 @@
       "rain",
       "Regen",
       "wind"
-    ],
-    "materialize": true,
+    ],  
     "authors": [
       "bluefox <dogafox@gmail.com>"
     ],
